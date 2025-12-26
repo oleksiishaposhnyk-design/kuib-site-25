@@ -1,0 +1,6 @@
+<h2>Оплата послуг (LiqPay Test)</h2>
+<form method="POST" action="https://www.liqpay.ua/api/3/checkout" accept-charset="utf-8">
+    <input type="hidden" name="data" value="{{ data }}" />
+    <input type="hidden" name="signature" value="{{ signature }}" />
+    <button type="submit" style="background:green; color:white; padding:10px;">Сплатити 100 грн</button>
+</form>
